@@ -1,0 +1,10 @@
+{
+	"实验结果":{
+		"costTime1":1896.8,
+		"costTime2":28433.6,
+		"equivalenceCount1":93.4,
+		"equivalenceCount2":96.6,
+		"membershipCount1":550.0,
+		"membershipCount2":1446.2
+	}
+}

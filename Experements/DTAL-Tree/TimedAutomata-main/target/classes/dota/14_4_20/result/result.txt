@@ -1,0 +1,7 @@
+the mean number of transition is:157.9
+observationTable:: 
+	membership:3204.2,
+	equivalence:103.1
+Dtree:: 
+	membership:1446.9,
+	equivalence:103.8
