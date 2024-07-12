@@ -1,4 +1,4 @@
-# DTAL
+# DTA-Learn
 
 We will make our code publicly available after the paper is accepted.
 
@@ -6,7 +6,9 @@ We will make our code publicly available after the paper is accepted.
 
 As an example, we show the learning results for a DTA as follows.
 {
+
     "name": "8_1_8_2",
+    
     "tran": {
         "0": ["1", "a", "[3,+)", "[5,+)", "r", "r", "5"],
         "1": ["2", "a", "(2,+)", "[5,+)", "n", "n", "2"],
@@ -18,8 +20,11 @@ As an example, we show the learning results for a DTA as follows.
         "7": ["8", "a", "[8,+)", "[7,+)", "n", "r", "6"]
     },
     "init": "1",
+    
     "accept": ["1","6","8"],
+    
     "l": ["1", "2", "3", "4", "5", "6", "7", "8"],
+    
     "sigma": ["a"]
 }
 
