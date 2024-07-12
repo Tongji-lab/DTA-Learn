@@ -50,7 +50,7 @@ transition id : [name of the source location, action, guard of the first clock, 
 
 The result learnt by DTAL-Tree is as follow:
 
-<img src="tree.png" style="width: 20em" />
+<img src="tree.jpg" style="width: 20em" />
 
 The dynamic learning process is as follows:
 
@@ -60,7 +60,7 @@ The dynamic learning process is as follows:
 
 The result learnt by DTAL-Table is as follow:
 
-<img src="table.png" style="width: 20em" />
+<img src="table.jpg" style="width: 20em" />
 
 The dynamic learning process is as follows:
 
