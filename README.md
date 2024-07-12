@@ -7,6 +7,9 @@ We will make our code publicly available after the paper is accepted.
 # Case
 
 As an example, we show the learning results for a DTA as follows.
+
+```
+
 {
     "name": "8_1_8_2",
     "tran": {
@@ -24,8 +27,6 @@ As an example, we show the learning results for a DTA as follows.
     "l": ["1", "2", "3", "4", "5", "6", "7", "8"],
     "sigma": ["a"]
 }
-
-```
 
 "name" : the name of the target DTA;
 
@@ -45,6 +46,7 @@ transition id : [name of the source location, action, guard of the first clock, 
 
 "accept" : the set of the name of accepting locations.
 
+```
 
 The result learnt by DTAL-Tree is as follow:
 
