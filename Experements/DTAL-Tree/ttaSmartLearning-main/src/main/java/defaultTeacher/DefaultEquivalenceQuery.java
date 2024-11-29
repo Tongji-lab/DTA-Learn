@@ -662,7 +662,7 @@ public class DefaultEquivalenceQuery implements EquivalenceQuery<TwoClockResetLo
                     }
                 }
                 e.deleteCharAt(e.lastIndexOf(","));
-                System.out.println(e.toString());
+//                System.out.println(e.toString());
 //                    String[] aa = new String[]{"python", "D:\\ExpressionZ3Solver.py", c.toString(), e.toString()};
 //                    Process proc = Runtime.getRuntime().exec(aa);// 执行py文件
 //
@@ -923,7 +923,7 @@ public class DefaultEquivalenceQuery implements EquivalenceQuery<TwoClockResetLo
                     }
                 }
                 e.deleteCharAt(e.lastIndexOf(","));
-                System.out.println(e.toString());
+ //               System.out.println(e.toString());
 //                    String[] aa = new String[]{"python", "D:\\ExpressionZ3Solver.py", c.toString(), e.toString()};
 //                    Process proc = Runtime.getRuntime().exec(aa);// 执行py文件
 //
@@ -1496,14 +1496,14 @@ public class DefaultEquivalenceQuery implements EquivalenceQuery<TwoClockResetLo
         return actionGuards;
     }
     public  double[] z3(double diff,double lowera1,double lowera2,double uppera1,double lowerc1,double lowerc2,double upperc1,boolean alo,boolean auo,boolean clo,boolean cuo) {
-        System.out.println("h w");
-        System.out.println(diff);
-        System.out.println(lowera1);
-        System.out.println(lowera2);
-        System.out.println(uppera1);
-        System.out.println(lowerc1);
-        System.out.println(lowerc2);
-        System.out.println(upperc1);
+//        System.out.println("h w");
+//        System.out.println(diff);
+//        System.out.println(lowera1);
+//        System.out.println(lowera2);
+//        System.out.println(uppera1);
+//        System.out.println(lowerc1);
+//        System.out.println(lowerc2);
+//        System.out.println(upperc1);
         HashMap<String, String> cfg = new HashMap<String, String>();
         cfg.put("model", "true");
         Context ctx = new Context(cfg);
@@ -1552,9 +1552,9 @@ public class DefaultEquivalenceQuery implements EquivalenceQuery<TwoClockResetLo
         }
         Status result = s.check();
         if (result == Status.SATISFIABLE){
-            System.out.println("model for: x + y*c*e = d + a, a > 0");
-            System.out.print(s.getModel());
-            System.out.println(a.toString());
+//            System.out.println("model for: x + y*c*e = d + a, a > 0");
+//            System.out.print(s.getModel());
+//            System.out.println(a.toString());
             Expr a_value = s.getModel().evaluate(a, false);
             Expr c_value = s.getModel().evaluate(c, false);
             double[] results=new double[2];

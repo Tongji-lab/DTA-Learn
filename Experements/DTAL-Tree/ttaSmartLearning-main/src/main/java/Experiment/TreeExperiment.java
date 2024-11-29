@@ -41,116 +41,116 @@ public class TreeExperiment {
         List<TwoClockTA> twoClockTAS = new ArrayList<>();
 
             twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-1.json"));
-            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-2.json"));
-            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-3.json"));
-            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-4.json"));
-            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-5.json"));
-            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-6.json"));
-            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-7.json"));
-            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-8.json"));
-            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-9.json"));
-            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-10.json"));
+//            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-2.json"));
+//            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-3.json"));
+//            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-4.json"));
+//            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-5.json"));
+//            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-6.json"));
+//            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-7.json"));
+//            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-8.json"));
+//            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-9.json"));
+//            twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\6_1_8_2\\6_1_8_2-10.json"));
+////
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-1.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-2.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-3.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-4.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-5.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-6.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-7.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-8.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-9.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-10.json"));
+////
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-1.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-2.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-3.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-4.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-5.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-6.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-7.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-8.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-9.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-10.json"));
+////
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-1.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-2.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-3.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-4.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-5.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-6.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-7.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-8.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-9.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-10.json"));
+////
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-1.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-2.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-3.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-4.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-5.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-6.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-7.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-8.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-9.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-10.json"));
 //
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-1.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-2.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-3.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-4.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-5.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-6.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-7.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-8.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-9.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_1_8_2\\8_1_8_2-10.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-1.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-2.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-3.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-4.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-5.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-6.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-7.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-8.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-9.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-10.json"));
 //
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-1.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-2.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-3.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-4.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-5.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-6.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-7.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-8.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-9.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_8_2\\8_2_8_2-10.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-1.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-2.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-3.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-4.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-5.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-6.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-7.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-8.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-9.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-10.json"));
 //
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-1.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-2.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-3.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-4.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-5.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-6.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-7.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-8.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-9.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_2_16_2\\8_2_16_2-10.json"));
 //
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-1.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-2.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-3.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-4.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-5.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-6.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-7.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-8.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-9.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\8_3_8_2\\8_3_8_2-10.json"));
-
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-1.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-2.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-3.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-4.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-5.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-6.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-7.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-8.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-9.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_8_2\\10_2_8_2-10.json"));
-
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-1.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-2.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-3.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-4.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-5.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-6.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-7.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-8.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-9.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_2_16_2\\10_2_16_2-10.json"));
-
-
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-1.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-2.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-3.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-4.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-5.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-6.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-7.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-8.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-9.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-10.json"));
-
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-1.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-2.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-3.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-4.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-5.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-6.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-7.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-8.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-9.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-10.json"));
-
-
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-1.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-2.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-3.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-4.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-5.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-6.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-7.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-8.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-9.json"));
-        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-10.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-1.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-2.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-3.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-4.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-5.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-6.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-7.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-8.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-9.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\10_3_8_2\\10_3_8_2-10.json"));
+//
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-1.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-2.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-3.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-4.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-5.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-6.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-7.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-8.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-9.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\12_2_8_2\\12_2_8_2-10.json"));
+//
+//
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-1.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-2.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-3.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-4.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-5.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-6.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-7.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-8.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-9.json"));
+//        twoClockTAS.add(LoadSMTDataFromJson.load("..\\..\\..\\jsons\\14_2_8_2\\14_2_8_2-10.json"));
 
 
         for (TwoClockTA twoclockta : twoClockTAS) {

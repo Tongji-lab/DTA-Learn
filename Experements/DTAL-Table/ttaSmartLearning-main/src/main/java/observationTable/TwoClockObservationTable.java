@@ -34,7 +34,6 @@ private int kc;
     private int memberctx=0;
     private int member=0;
     private int membertable=0;
-    private long consistenttime=0;
     private Map<PairRegion, BooleanAnswer> answers;
     private TwoClockTA hypothesis;
     private int selectfromregionc;
@@ -246,7 +245,6 @@ private int kc;
         this.hypothesis = evidenceDOTA;
         System.out.println("membertable:"+membertable);
         System.out.println("memberctx:"+memberctx);
-        System.out.println("consistenttime:"+consistenttime);
         return hypothesis;
     }
 
@@ -4569,7 +4567,6 @@ private void makeClosed(TwoClockResetLogicTimeWord word) {
 //    }
 
     public  boolean isConsistent(){
-        long Start=System.currentTimeMillis();
         unConsistentCouple = new ArrayList<>();
         Set<TwoClockLogicAction> logicActionSet = getLastActionSet();
         List<TwoClockResetLogicTimeWord> list = getPrefixList();
@@ -4964,9 +4961,6 @@ private void makeClosed(TwoClockResetLogicTimeWord word) {
                                     RegionTwoClockLogicAction regionTwoClockLogicAction = new RegionTwoClockLogicAction(action.getSymbol(), regionList.get(0));
                                     key = regionTwoClockLogicAction;
                                     System.out.println("return false");
-                                    long End=System.currentTimeMillis();
-                                    consistenttime+=End-Start;
-                                    System.out.println("consistenttime:"+consistenttime);
                                     return false;
                                 }
                             }
@@ -4975,8 +4969,6 @@ private void makeClosed(TwoClockResetLogicTimeWord word) {
                 }
             }
         }
-        long End=System.currentTimeMillis();
-        consistenttime+=End-Start;
         return true;
     }
     private void makeConsistent() {
